@@ -1,0 +1,17 @@
+# General
+node_modules/
+.env
+.DS_Store
+*.log
+dist/
+coverage/
+
+# Backend-specific
+backend/.env
+backend/node_modules/
+backend/uploads/
+
+# Frontend-specific
+frontend/node_modules/
+frontend/.env.local
+frontend/build/  # React/Vue build folder
