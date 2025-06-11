@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react'
 import { LuMapPinHouse, LuMail, LuPhone, LuRss, LuGithub, LuUser, LuLanguages } from 'react-icons/lu';
-import {RiLinkedinLine} from 'react=icons/ri';
+import { RiLinkedinLine } from "react-icons/ri";
 import ContactInfo from '../ResumeSections/ContactInfo';
 import EducationInfo from '../ResumeSections/EducationInfo';
-import formatYearMonth from '../../utils/helper';
+import { formatYearMonth } from '../../utils/helper';
 import LanguageSection from '../ResumeSections/LanguageSection';
 import WorkExperience from '../ResumeSections/WorkExperience';
 import ProjectInfo from '../ResumeSections/ProjectInfo';
